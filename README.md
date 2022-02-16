@@ -41,4 +41,4 @@ cd MSSQLDecryptor
 go mod tidy
 go build .
 ```
-you can also install it from source code with `go install github.com/er-azh/MSSQLDecryptor`.
+you can also install it from source code with `go install github.com/er-azh/MSSQLDecryptor@latest`.
