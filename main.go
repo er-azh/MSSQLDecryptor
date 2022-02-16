@@ -131,7 +131,7 @@ func main() {
 
 	if !isFlagProvided("password") {
 		fmt.Print("Password: ")
-		passwordBytes, err := term.ReadPassword(syscall.Stdin)
+		passwordBytes, err := term.ReadPassword(int(syscall.Stdin))
 		if err != nil {
 			panic(err)
 		}
